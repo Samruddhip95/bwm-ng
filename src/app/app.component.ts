@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  clickme(){
+    alert( "I have been clicked")
+  }
 }
